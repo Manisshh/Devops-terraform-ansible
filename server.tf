@@ -13,7 +13,7 @@ region = "us-west-1"
 resource "aws_instance" "myawsserver" {
   ami = "ami-09c72d5a7ce529ad5"
   instance_type = "t2.micro"
-  key_name = "raman-import"
+  key_name = "manish-import"
 
   tags = {
     Name = "Raman-DevOps-batch-server"
