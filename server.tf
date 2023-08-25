@@ -11,7 +11,7 @@ provider "aws" {
 region = "us-west-2"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-0911e88fb4687e06b"
+  ami = "ami-002c2b8d1f5b1eb47"
   instance_type = "t2.micro"
   key_name = "manish-import"
 
